@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - ORG</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"/>
+    <style>
+        /* Set the background color to dark grey */
+        body {
+            background: linear-gradient(to bottom, #0b0135a8, #000000);
+            background-repeat: no-repeat;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            height: 100vh;
+            display: flex;
+            color: white;
+            flex-direction: column; /* Arrange items vertically */
+            justify-content: center;
+        }
+
+        .back-button-container {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 999;
+        }
+
+        .card {
+            background-color: #272727;
+            color: white;
+            margin-bottom: 20px;
+            transition: transform 0.3s; /* Add transition for hover effect */
+        }
+
+        .card:hover {
+            transform: scale(1.05); /* Scale up the card on hover */
+            cursor: pointer;
+        }
+
+        .card-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="back-button-container">
+        <a href="/"><button class="btn btn-secondary back-button">Back to home</button></a>
+    </div>
+    <h1 class="text-center my-4">About Us</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Our Mission</h5>
+                    <p class="card-text">OrgAssist is on a mission to revolutionize organizational efficiency by providing an intelligent virtual assistant that empowers employees, streamlines communication, and unlocks the full potential of our organization.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Our Vision</h5>
+                    <p class="card-text">OrgAssist envisions a future where every employee thrives in a seamless and empowering work environment.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">AI-powered Q&A</h5>
+                    <p class="card-text">Answers questions about company policies, procedures, and practices.
+                        Chatbot Interface: Provides a user-friendly way to interact and get information.
+                        Advanced Search: Makes finding critical documents and information effortless.
+                        Boosts Productivity: Saves time by streamlining communication and information retrieval.
+                        Elevates Experience: Empowers employees and fosters a culture of innovation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Techniques </h5>
+                    <p class="card-text">Large Language Model: Understands and answers questions in natural language.
+                        NLP: Cracks your questions' codes to figure out what you really need.
+                        Information Retrieval: Hunts down the info you need from your organization's treasure trove.
+                        Machine Learning: Gets smarter over time, learning from your interactions.
+                        Dialogue Management: Keeps your chatbot conversations flowing smoothly.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Technologies</h5>
+                    <p class="card-text">
+                        Large Language Models (LLMs)
+                        Natural Language Processing (NLP)
+                        Information Retrieval
+                        Machine Learning (ML)</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Process</h5>
+                    <p class="card-text">User asks a question via text or interacts with the chatbot interface.
+                        NLP kicks in: OrgAssist analyzes the user's question, understanding its intent and any keywords related to company policies, procedures, or practices.
+                        Information retrieval: OrgAssist searches its knowledge base (documents, databases) using the extracted keywords.
+                        Delivery: The answer is delivered to the user through text or the chatbot interface, depending on how the user interacted.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
